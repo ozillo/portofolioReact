@@ -1,5 +1,15 @@
 section{
     display: flex;
     height:80vh;
-    background-color: blanchedalmond;
+    background-color: #083144;
+}
+
+h1{
+    font-size: 30px;
+    color:#cff32b;
+}
+
+h2{
+    font-size: 30px;
+    color:#cff32b;
 }

@@ -1,5 +1,19 @@
-footer{
-    display:flex;
-    height:10vh;
-    background-color: blue;
-}
+footer {
+    background-color: #0a0824;
+    color: #fff;
+    width: 100vw;
+    height: 10vh;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .footer-text {
+    text-align: center;
+  }
+  

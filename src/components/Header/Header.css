@@ -1,0 +1,16 @@
+header{
+    height: 10vh;
+    background-color: blueviolet;
+
+}
+
+.logo{
+    display:flex;
+    height:60px;
+}
+
+.socialMedia1{
+    display:flex;
+    justify-content: space-around;
+
+}

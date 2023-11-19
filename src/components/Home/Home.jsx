@@ -6,12 +6,13 @@ const Home = () => {
   return (
    <section className="home-section">
     <div className="aboutMe">
-      <h1>Hola, soy Marc Mateo</h1>
+      <p>Hola, soy</p>
+      <h1>Marc Mateo</h1>
       <h2>FullStack Developer</h2>
     </div>
-    <div className="logo">
+    <div className="portrait">
       <img 
-      src="https://res.cloudinary.com/dw9b8eqmc/image/upload/v1699904682/PortofolioMarcMateo/LOGOTEMPLATE_ccohy5.png" alt="logo" className="logo"/>
+      src="https://res.cloudinary.com/dw9b8eqmc/image/upload/v1699208992/PortofolioMarcMateo/MarcFrontFondo_mdslsr.png" alt="logo" className="imgPortrait"/>
       
       </div>
    </section>

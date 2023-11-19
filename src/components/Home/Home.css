@@ -1,15 +1,37 @@
-section{
+.home-section{
     display: flex;
     height:80vh;
     background-color: #083144;
+    justify-content: space-between;
+}
+
+p{
+    font-size: 16px;
+    color:#cff32b;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 90px;
     color:#cff32b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h2{
-    font-size: 30px;
+    font-size: 45px;
     color:#cff32b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+.portrait{
+    display:flex;
+    background-color:#cff32b;
+    border-color: #cff32b;
+    border-width: 7px;
+    height: 500px;
+}
+
+.imgPortrait{
+    height: 400px;
 }

@@ -3,10 +3,11 @@ import React from 'react'
 
 const Skills = () => {
   return (
+    <>
     <section className="skills-section">
-        <h1>HABILIDADES</h1>
-
+        <h1 className="skillsH1">HABILIDADES</h1>
     </section>
+    </>
   )
 }
 

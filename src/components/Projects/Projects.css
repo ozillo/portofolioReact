@@ -1,0 +1,9 @@
+.projects-section{
+    display:flex;
+    height:80vh;
+    background-color: burlywood;
+}
+
+.projectsH1{
+    color:whitesmoke;
+}

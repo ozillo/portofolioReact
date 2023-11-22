@@ -1,0 +1,9 @@
+.aboutme-section{
+    display:flex;
+    height:80vh;
+    background-color: greenyellow;
+}
+
+.aboutmeH1{
+    color:grey;
+}

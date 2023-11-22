@@ -1,10 +1,12 @@
 import "./Home.css"
-
 import React from 'react'
+import Experience from "../Experience/Experience"
 
 const Home = () => {
   return (
-   <section className="home-section">
+
+    <>
+    <section className="home-section">
     <div className="aboutMe">
       <p>Hola, soy</p>
       <h1>Marc Mateo</h1>
@@ -13,9 +15,12 @@ const Home = () => {
     <div className="portrait">
       <img 
       src="https://res.cloudinary.com/dw9b8eqmc/image/upload/v1699208992/PortofolioMarcMateo/MarcFrontFondo_mdslsr.png" alt="logo" className="imgPortrait"/>
-      
       </div>
-   </section>
+   </section> 
+   </>
+
+
+
   )
 }
 

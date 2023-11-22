@@ -3,7 +3,11 @@ import React from 'react'
 
 const AboutMe = () => {
   return (
-    <div>AboutMe</div>
+    <>
+   <section className="aboutme-section">
+    <h1 className="aboutmeH1">SOBRE MI</h1>
+    </section>
+    </>
   )
 }
 

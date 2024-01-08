@@ -6,17 +6,12 @@ const Home = () => {
   return (
 
     <>
-    <section className="home-section">
-    <div className="aboutMe">
-      <p>Hola, soy</p>
+    <section class="home">
+      <p>Hola, Soy</p>
       <h1>Marc Mateo</h1>
-      <h2>FullStack Developer</h2>
-    </div>
-    <div className="portrait">
-      <img 
-      src="https://res.cloudinary.com/dw9b8eqmc/image/upload/v1699208992/PortofolioMarcMateo/MarcFrontFondo_mdslsr.png" alt="logo" className="imgPortrait"/>
-      </div>
-   </section> 
+      <p>Me dedico al FullStack a partir de Javascript, donde implemento mis tecnicas tanto en la parte Front-end como en la parte Back-end para poder manejar e dirigir los datos deseados y su diseño acorde con las características de la aplicación buscada.</p>
+      <a href="mailto:marmateodvlpr@gmail.com">e-mail →</a>
+      </section>
    </>
 
 

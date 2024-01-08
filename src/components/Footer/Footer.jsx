@@ -8,9 +8,9 @@ const Footer = () => {
     
     <h2>Marc Mateo Developer 2024</h2>
 <div>
-{Button("/icons/codepen.png", "CodePen")}
-{Button("/icons/github.png", "GitHub")}
-{Button("/icons/linkedin.png", "LinkedIn")}
+{Button("https://res.cloudinary.com/dw9b8eqmc/image/upload/v1700336471/PortofolioMarcMateo/codepen_ntobak.png", "CodePen")}
+{Button("https://res.cloudinary.com/dw9b8eqmc/image/upload/v1700336404/PortofolioMarcMateo/logotipo-de-github_ca1hvx.png", "GitHub")}
+{Button("https://res.cloudinary.com/dw9b8eqmc/image/upload/v1700336575/PortofolioMarcMateo/linkedin-logo-png-2026_fwo79r.png", "LinkedIn")}
 </div>
     
     </footer>

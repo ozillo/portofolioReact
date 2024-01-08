@@ -1,6 +1,5 @@
 import "./Home.css"
 import React from 'react'
-import Experience from "../Experience/Experience"
 
 const Home = () => {
   return (

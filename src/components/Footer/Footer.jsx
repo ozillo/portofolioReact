@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
     
-    <h2>Marc Mateo Developer 2024</h2>
+    <h2>Contacto</h2>
 <div>
 {Button("https://res.cloudinary.com/dw9b8eqmc/image/upload/v1700336471/PortofolioMarcMateo/codepen_ntobak.png", "CodePen")}
 {Button("https://res.cloudinary.com/dw9b8eqmc/image/upload/v1700336404/PortofolioMarcMateo/logotipo-de-github_ca1hvx.png", "GitHub")}

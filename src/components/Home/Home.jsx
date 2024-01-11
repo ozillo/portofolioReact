@@ -7,7 +7,7 @@ const Home = () => {
   return (
     
     <>
-    <Projects/>
+    
     <section className="home">
       <p>Hola, Soy</p>
       <h2>Fullstack Developer</h2>
@@ -15,6 +15,7 @@ const Home = () => {
          tecnologías tanto en la parte Front-end como en la parte Back-end para poder manejar e dirigir los datos deseados<br></br> y su diseño acorde con las características de la aplicación buscada.</p>
       <a href="mailto:marmateodvlpr@gmail.com">e-mail →</a>
       </section>
+      <Projects/>
    </>
 
 

@@ -1,10 +1,13 @@
+import Projects from "../Projects/Projects"
 import "./Home.css"
 import React from 'react'
 
+
 const Home = () => {
   return (
-
+    
     <>
+    <Projects/>
     <section className="home">
       <p>Hola, Soy</p>
       <h2>Fullstack Developer</h2>

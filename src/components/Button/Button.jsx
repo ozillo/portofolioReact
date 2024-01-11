@@ -3,8 +3,8 @@ import React from 'react'
 
 const Button = (icon,text) => {
   return (
-    <button class="my-btn">
-    <img src={icon} alt={text} icon/>
+    <button className="my-btn">
+    <img src={icon} alt={text} />
     <h4>{text}</h4>
     </button>
   )

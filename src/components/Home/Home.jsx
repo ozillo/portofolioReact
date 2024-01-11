@@ -5,7 +5,7 @@ const Home = () => {
   return (
 
     <>
-    <section class="home">
+    <section className="home">
       <p>Hola, Soy</p>
       <h2>Fullstack Developer</h2>
       <p>Me dedico al FullStack a partir de Javascript, donde implemento mis habilidades en las distintas<br></br>

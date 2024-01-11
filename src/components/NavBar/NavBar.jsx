@@ -1,5 +1,4 @@
 import "./NavBar.css"
-
 import React from 'react'
 
 const NavBar = () => {
@@ -27,7 +26,7 @@ const NavBar = () => {
       <a href="#" id="projectslink">Proyectos</a>
       </li>
         <li>
-          <button onClick={()=>changeTheme} id="themeBtn">☀</button>
+          <button onClick={()=>changeTheme()} id="themeBtn">☀</button>
        </li>
   </ul>
   </nav>

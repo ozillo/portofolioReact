@@ -8,6 +8,10 @@
   gap: 3rem;
 }
 
+
+
+
+
 @media (max-width: 700px) {
   .home {
     padding: 0 2rem;
@@ -24,4 +28,9 @@
 
 .home > a {
   font-size: 1.5rem;
+}
+
+span{
+  height:2px;
+  background-color: #9845e8;
 }

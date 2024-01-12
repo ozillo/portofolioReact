@@ -13,7 +13,7 @@ const Projects = () => {
     <div className="projects-container">
       {data.map((project)=>{
         return (
-          <figure>
+          <figure className="figureProjects">
           <h2>{project.title}</h2>
           <p>{project.description}</p>
           <img className="imgFigure" src={project.image} alt="imgCard"/>

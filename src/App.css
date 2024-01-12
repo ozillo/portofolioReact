@@ -51,9 +51,19 @@ body {
 
 main {
   min-height: 80vh;
+  align-items: center;
+
 }
 
 a,
 p {
   font-size: 1.1rem;
+}
+
+.All-btn button{
+  display: flex;
+  background-color: black;
+  color: aliceblue;
+  justify-content:space-between;
+  align-items:end;
 }

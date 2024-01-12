@@ -7,6 +7,10 @@
     gap: 2rem;
     margin-bottom: 2rem;
   }
+
+  .figureProjects{
+    margin-top: 4px;
+  }
   .imgFigure{
     height:150px;
   }

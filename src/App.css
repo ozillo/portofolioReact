@@ -61,9 +61,13 @@ p {
 }
 
 .All-btn button{
-  display: flex;
-  background-color: black;
-  color: aliceblue;
-  justify-content:space-between;
-  align-items:end;
+
+  background: none;
+  border: none;
+  color: inherit;
+  transform: scale(1.5);
+  justify-content:center;
+  margin-left: 6rem;
 }
+
+

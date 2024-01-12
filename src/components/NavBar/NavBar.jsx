@@ -21,6 +21,7 @@ const NavBar = () => {
   };
   return (
     <nav>
+      <img src="https://res.cloudinary.com/dw9b8eqmc/image/upload/v1705064659/PortofolioMarcMateo/logoMarcMateoJS_uwqi8c.png"alt="logoMarc"/>
   <h2>Marc Mateo</h2>
   
   <ul>

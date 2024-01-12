@@ -22,6 +22,7 @@ const NavBar = () => {
   return (
     <nav>
   <h2>Marc Mateo</h2>
+  
   <ul>
       {/* <li>
       <a href={Home} id="homelink">Home</a>

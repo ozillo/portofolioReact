@@ -18,13 +18,13 @@
   }
 }
 
-.home > h2 {
+ .home > h2 {
   font-size: 3.5rem;
   background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-}
+} 
 
 .home > a {
   font-size: 1.5rem;
@@ -34,3 +34,4 @@ span{
   height:2px;
   background-color: #9845e8;
 }
+

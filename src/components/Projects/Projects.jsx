@@ -10,7 +10,7 @@ const Projects = () => {
    <section className="projects-section">
     <h1 className="projectsH1">Proyectos</h1>
     <span className="divider"></span>
-    <div className="projects-container">
+    
       {data.map((project)=>{
         return (
           <figure className="figureProjects">
@@ -25,7 +25,6 @@ const Projects = () => {
       })
       
       }
-    </div>
    </section>
    
   )

@@ -18,8 +18,8 @@ export const data = [
       link: "www.proyecto1.com"
     },
     {
-      title: "Fem camí",
-      description: "Centro especializado en autismo",
+      title: "Rick y Morty",
+      description: "Ejemplo de una API basada en Rick y Morty",
       image:
         "https://images.unsplash.com/photo-1669570094762-828f3dfaf675?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
       tech: ["React", "HTML5", "CSS3", "JavaScript"],

@@ -64,5 +64,10 @@ p{
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-
+  @media screen and (width<600px){
+    .imgFigure{
+      height:280px;
+      width: 100%;
+    }
+  }
   

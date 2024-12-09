@@ -6,8 +6,8 @@ const Projects = () => {
   return (
     <div>
       <section className="projects-section">
-        <h1 className="projectsH1">Proyectos</h1>
-        <span className="divider"></span>
+        {/* <h1 className="projectsH1">Proyectos</h1>
+        <span className="divider"></span> */}
 
         {data.map((project) => {
           return (

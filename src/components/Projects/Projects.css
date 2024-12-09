@@ -45,16 +45,16 @@ p{
     font-size: 1rem;
   }
   
-  /* .projects-container {
+  .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 8rem;
-  } */
+  } 
   
   @media (max-width: 770px) {
-    /* .projects-container {
+    /.projects-container {
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    } */
+    } 
   }
 
   .projectsH1{
@@ -64,11 +64,13 @@ p{
     background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+
+  
+
   @media screen and (width<600px){
-    .imgFigure{
-      height:280px;
-      width: 100%;
-    }
+    .imgFigure {
+    height:280px;
+    width:100%;}
   }
 
  

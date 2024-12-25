@@ -7,6 +7,25 @@
     gap: 2rem;
     margin-bottom: 2rem;
   }
+   
+  .link-icon {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    gap: 0.5rem;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+  }
+  
+  .link-icon:hover {
+    color: var(--highlight);
+  }
+  
+  .icon {
+    font-size: 1.2rem;
+  }
+/*icons*/
 h2{
   font-size: 25px;
   font-weight: 300;
@@ -19,14 +38,6 @@ p{
   margin-bottom: 10px;
   
 }
-/* 
-  .figureProjects{
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4px;
-  } */
 
   .imgFigure{
     height:280px;
@@ -52,7 +63,7 @@ p{
   } 
   
   @media (max-width: 770px) {
-    /.projects-container {
+    .projects-container {
       grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     } 
   }

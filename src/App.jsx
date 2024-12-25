@@ -1,51 +1,12 @@
-import { useState } from 'react'
-import './App.css'
-import Header from './components/Header/Header'
-import Home from './components/Home/Home'
-import Footer from './components/Footer/Footer'
-import Projects from './components/Projects/Projects'
-import Skills from './components/Skills/Skills'
-
-
-// function App() {
-//   const [showHome, setShowHome] = useState(true);
-
-//   return (
-//    <>
-//    <Header/>
-//     <main>
-//       <div className='All-btn'>
-//           <button
-//               className="custom-btn"
-//               onClick={() => setShowHome(true)}
-//             >
-//               Home
-//             </button>
-            
-//           <button
-//               className="custom-btn"
-//               onClick={() => setShowHome(false)}
-//             >
-//               Proyectos
-//           </button>
-//       </div>
-//             <div>
-//         {showHome ? (
-//           <Home home={Home} />
-//         ) : (
-//           <Projects projects={Projects} />
-//         )}
-//         </div>
-//     </main>
-//     <Footer/>
-   
-//    </>
-//   )
-
-   
-// }
-
-// export default App
+import { useState } from 'react';
+import './App.css';
+import Header from './components/Header/Header';
+import Home from './components/Home/Home';
+import Footer from './components/Footer/Footer';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
+// Importar iconos de React Icons
+import { FaHome, FaProjectDiagram, FaTools } from 'react-icons/fa';
 
 function App() {
   const [activeComponent, setActiveComponent] = useState('home'); // Puede ser 'home', 'projects', o 'habilidades'.
@@ -56,24 +17,25 @@ function App() {
       <main>
         <div className="All-btn">
           <button
-          className={`custom-btn ${activeComponent === 'home' ? 'active' : ''}`}
-          onClick={() => setActiveComponent('home')}
+            className={`custom-btn ${activeComponent === 'home' ? 'active' : ''}`}
+            onClick={() => setActiveComponent('home')}
           >
-            Home
+            <FaHome className="icon" /> Home
           </button>
           <button
-            className="custom-btn"
+            className={`custom-btn ${activeComponent === 'projects' ? 'active' : ''}`}
             onClick={() => setActiveComponent('projects')}
           >
-            Proyectos
+            <FaProjectDiagram className="icon" /> Proyectos
           </button>
           <button
-            className="custom-btn"
+            className={`custom-btn ${activeComponent === 'skills' ? 'active' : ''}`}
             onClick={() => setActiveComponent('skills')}
           >
-            Habilidades
+            <FaTools className="icon" /> Habilidades
           </button>
         </div>
+
         <div>
           {activeComponent === 'home' && <Home />}
           {activeComponent === 'projects' && <Projects />}
@@ -86,4 +48,3 @@ function App() {
 }
 
 export default App;
-

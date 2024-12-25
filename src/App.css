@@ -17,8 +17,8 @@
   --primary-light: #111111;
   --bg-light: whitesmoke;
   --highlight: #6cace4;
-  --divider: rgb(164, 164, 164)
-  
+  --divider: rgb(164, 164, 164);
+
   --background-dark: #2d3548;
   --text-light: rgba(255,255,255,0.6);
   --text-lighter: rgba(255,255,255,0.9);
@@ -69,7 +69,6 @@ body {
 main {
   min-height: 80vh;
   align-items: center;
-
 }
 
 a,
@@ -77,14 +76,61 @@ p {
   font-size: 1.1rem;
 }
 
-.All-btn button{
+.All-btn {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 0;
+}
 
+.custom-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #333;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom-btn .icon {
+  font-size: 1.2rem;
+}
+
+.custom-btn:hover {
+  background-color: var(--highlight);
+  color: #111;
+}
+
+.custom-btn.active {
+  background-color: var(--highlight);
+  color: #111;
+}
+
+.All-btn button {
   background: none;
   border: none;
   color: inherit;
   transform: scale(1.5);
-  justify-content:center;
+  justify-content: center;
   margin-left: 6rem;
 }
-
-
+/* Media queries for smaller screens */
+@media (max-width: 768px) {
+  .custom-btn {
+    font-size: 0.8rem; /* Smaller font size for buttons on smaller screens */
+  }
+  
+  .custom-btn .icon {
+    font-size: 1rem; /* Smaller icon size for smaller screens */
+  }
+  
+  .All-btn button {
+    transform: scale(1); /* Remove scaling on smaller screens */
+    margin-left: 0; /* Remove margin on smaller screens */
+  }
+}

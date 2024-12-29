@@ -9,7 +9,9 @@ const NavBar = () => {
 
   return (
     <nav>
-      <h2>Marc Mateo</h2>
+      <h2>
+        <span className="bold">Marc</span> <span className="thin">Mateo</span>
+      </h2>
 
       <ul>
         <li>

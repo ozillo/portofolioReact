@@ -1,58 +1,94 @@
- .home {
-  padding: 0 8rem;
-  height: 80vh;
+.home {
+  padding: 0; /* Sin padding para aprovechar toda la pantalla */
+  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  display: flex;
+  justify-content: center; /* Centra verticalmente el contenido */
+  align-items: center; /* Centra horizontalmente */
+  gap: 2rem;
+  flex-wrap: wrap; /* Asegura que los elementos se ajusten en pantallas pequeñas */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Apila los elementos en todas las pantallas */
+  align-items: center;
+  justify-content: center; /* Centra todo */
+  gap: 1.5rem;
+  width: 100%; /* Ocupa todo el ancho */
+  text-align: center; /* Centra el texto */
+}
+
+.imgPerfil {
+  width: 80%; /* Ajusta el tamaño de la imagen */
+  max-width: 300px; /* Tamaño máximo de la imagen */
+  height: auto;
+  border-radius: 8px; /* Bordes suaves */
+}
+
+.text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 3rem;
-  background-image: url("https://res.cloudinary.com/dw9b8eqmc/image/upload/v1709227532/PortofolioMarcMateo/Blanc_i_negre_1_en_taman%CC%83o_mediano_twux4c.png");
-  background-repeat: no-repeat;
-  background-position: 80%;
-  mask-image: linear-gradient(
-  whitesmoke 60%,transparent
-  );
-
+  gap: 1rem;
 }
 
-.imgPerfil{
-  
-}
-
-.home p{
-  background: rgba(255, 255, 255, 0.03);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(2.2px);
--webkit-backdrop-filter: blur(2.2px);
-
-}
-
-
-
-
-@media (max-width: 700px) {
-  .home {
-    padding: 0 2rem;
-  }
-}
-
- .home > h2 {
-  font-size: 3.5rem;
+.text h2 {
+  font-size: 2.5rem;
   background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-} 
-
-.home > a {
-  font-size: 1.5rem;
+  margin: 0;
 }
 
-span{
-  height:2px;
+.text p {
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.2px);
+  -webkit-backdrop-filter: blur(2.2px);
+  padding: 1rem;
+}
+
+.text a {
+  font-size: 1.2rem;
+  color: #9845e8;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.text a:hover {
+  color: #33d2ff;
+}
+
+span {
+  height: 2px;
   background-color: #9845e8;
+  width: 100%;
 }
- 
 
- 
+/* Media Queries para aprovechar pantallas pequeñas */
+@media (max-width: 700px) {
+  .home {
+    gap: 1rem; /* Reduce el espacio entre elementos */
+  }
+
+  .imgPerfil {
+    width: 90%; /* Ocupa más espacio en pantallas pequeñas */
+  }
+
+  .text h2 {
+    font-size: 2rem;
+  }
+
+  .text p {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+
+  .text a {
+    font-size: 1rem;
+  }
+}

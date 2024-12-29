@@ -6,6 +6,17 @@ nav {
     padding: 0 8rem;
     flex-wrap: wrap;
   }
+
+  h2 .bold {
+    font-weight: 200;
+    background-color: transparent;
+
+  }
+  
+  h2 .thin {
+    font-weight: 400;
+    background-color: transparent; 
+  }
   
   
   @media (max-width: 770px) {

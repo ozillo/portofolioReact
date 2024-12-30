@@ -1,22 +1,48 @@
 footer {
+  height:10vh;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 0 8rem;
-  gap: 4rem;
+  padding: 1rem 8rem;
+  gap: 2rem;
   flex-wrap: wrap;
   margin: 2rem 0;
-}
+  background-color: #242424;
 
-@media (max-width: 770px) {
-  footer {
-    padding: 0 2rem;
-    gap: 2rem;
-  }
+
 }
 
 footer > div {
+  height:10vh;
   display: flex;
-  gap: 1rem;
-  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.icon-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #f0f0f0; /* Fondo de los iconos */
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  color: #333;
+}
+
+.icon-button:hover {
+  transform: scale(1.1); /* Efecto de zoom al pasar el ratón */
+  background-color: #9845e8; /* Cambia el fondo al pasar el ratón */
+  color: white; /* Cambia el color del icono */
+}
+
+/* Responsivo */
+@media (max-width: 770px) {
+  footer {
+    padding: 1rem 2rem;
+  }
+
+  footer > div {
+    gap: 1rem;
+  }
 }

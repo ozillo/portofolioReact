@@ -1,20 +1,25 @@
-import Button from "../Button/Button"
-import "./Footer.css"
-import React from 'react'
+import React from "react";
+import { FaCodepen, FaGithub, FaLinkedin } from "react-icons/fa"; // Importa los iconos necesarios
+import "./Footer.css";
+
 
 const Footer = () => {
   return (
     <footer>
-    
-    <h2>Contacto</h2>
-<div>
-{Button("https://res.cloudinary.com/dw9b8eqmc/image/upload/v1700336471/PortofolioMarcMateo/codepen_ntobak.png", "CodePen")}
-{Button("https://res.cloudinary.com/dw9b8eqmc/image/upload/v1700336404/PortofolioMarcMateo/logotipo-de-github_ca1hvx.png", "GitHub")}
-{Button("https://res.cloudinary.com/dw9b8eqmc/image/upload/v1700336575/PortofolioMarcMateo/linkedin-logo-png-2026_fwo79r.png", "LinkedIn")}
-</div>
-    
-    </footer>
-  )
-}
 
-export default Footer
+      <div>
+        <a href="https://codepen.io/" target="_blank" rel="noopener noreferrer" className="icon-button">
+          <FaCodepen size={40} /> {/* Icono de CodePen */}
+        </a>
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" className="icon-button">
+          <FaGithub size={40} /> {/* Icono de GitHub */}
+        </a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" className="icon-button">
+          <FaLinkedin size={40} /> {/* Icono de LinkedIn */}
+        </a>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;

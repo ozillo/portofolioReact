@@ -1,0 +1,74 @@
+/* Contenedor principal */
+.icon-container {
+    display: flex;
+    gap: 2rem;
+    position: relative;
+    overflow: hidden; /* Oculta los elementos fuera del contenedor */
+    width: 100%;
+    height: 200px; /* Altura predeterminada */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Iconos */
+  .icon {
+    font-size: 3rem; /* Tamaño base de los iconos */
+    animation: moveIcons 10s linear infinite; /* Animación */
+    color: #61dafb; /* Color base */
+    position: absolute;
+    transform: translateX(-100%); /* Inicia fuera de la pantalla */
+  }
+  
+  /* Animación */
+  @keyframes moveIcons {
+    0% {
+      transform: translateX(-10%);
+    }
+    100% {
+      transform: translateX(110%);
+    }
+  }
+  
+  /* Colores personalizados por tecnología */
+  .icon:nth-child(1) { color: #61dafb; } /* React */
+  .icon:nth-child(2) { color: #f7df1e; } /* JavaScript */
+  .icon:nth-child(3) { color: #e34f26; } /* HTML */
+  .icon:nth-child(4) { color: #1572b6; } /* CSS */
+  .icon:nth-child(5) { color: #000000; } /* Next.js */
+  .icon:nth-child(6) { color: #cc6699; } /* Sass */
+  .icon:nth-child(7) { color: #47a248; } /* MongoDB */
+  .icon:nth-child(8) { color: #00758f; } /* MySQL */
+  .icon:nth-child(9) { color: #21759b; } /* WordPress */
+  .icon:nth-child(10) { color: #ff9a00; } /* Adobe Illustrator */
+  .icon:nth-child(11) { color: #001d34; } /* Adobe Photoshop */
+  .icon:nth-child(12) { color: #9999ff; } /* Adobe After Effects */
+  .icon:nth-child(13) { color: #ff61f6; } /* Adobe XD */
+  
+  /* Responsividad */
+  @media (max-width: 1200px) {
+    .icon {
+      font-size: 2.5rem; /* Reduce el tamaño de los iconos */
+    }
+    .icon-container {
+      height: 150px; /* Reduce la altura del contenedor */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .icon {
+      font-size: 2rem;
+    }
+    .icon-container {
+      height: 120px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .icon {
+      font-size: 1.5rem; /* Tamaño más pequeño para móviles */
+    }
+    .icon-container {
+      height: 100px; /* Reduce aún más la altura */
+    }
+  }
+  

@@ -9,6 +9,7 @@ const NavBar = () => {
 
   return (
     <nav>
+      
       <h2>
         <span className="bold">Marc</span> <span className="thin">Mateo</span>
       </h2>

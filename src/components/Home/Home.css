@@ -1,6 +1,6 @@
 .home {
   padding: 0; /* Sin padding para aprovechar toda la pantalla */
-  height: 100vh; /* Ocupa toda la altura de la pantalla */
+  height: 80vh; /* Ocupa toda la altura de la pantalla */
   display: flex;
   justify-content: center; /* Centra verticalmente el contenido */
   align-items: center; /* Centra horizontalmente */
@@ -9,6 +9,7 @@
   background-repeat: no-repeat;
   background-position: center;
 }
+
 
 .content {
   display: flex;
@@ -33,22 +34,19 @@
   gap: 1rem;
 }
 
-.text h2 {
-  font-size: 2.5rem;
+.titleGradient {
+  font-size: 3.5rem;
   background: linear-gradient(to right, #9845e8 0%, #33d2ff 50%, #dd5789 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   margin: 0;
+  font-weight: 300;
 }
 
 .text p {
-  font-size: 1rem;
-  background: rgba(255, 255, 255, 0.03);
-  border-radius: 16px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(2.2px);
-  -webkit-backdrop-filter: blur(2.2px);
+  font-size: 1.5rem;
+  font-weight: 200;
   padding: 1rem;
 }
 
